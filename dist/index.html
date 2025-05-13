@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Star Wars Character DB</title>
+  
+  <script type="module" crossorigin src="/Alex_D_Star_Wars_Char_Project/assets/index-adcf563f.js"></script>
+  <link rel="stylesheet" href="/Alex_D_Star_Wars_Char_Project/assets/index-f5a62b14.css">
+</head>
+<body>
+  <div class="search-container">
+    <input type="text" placeholder="Search..." id="search-input" class="search-input" />
+    <button class="search-button">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+        class="feather feather-search">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </button>
+  </div>
+
+  <div id="results"></div>
+
+  <dialog id="popup-dialog">
+    <h2 id="character-title"></h2>
+    <div id="dialog-content">Loading...</div>
+    <button id="close-dialog">Close</button>
+  </dialog>
+
+  
+</body>
+</html>
